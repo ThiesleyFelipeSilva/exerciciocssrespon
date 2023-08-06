@@ -65,19 +65,21 @@ section .conteiner{
     text-align: center;
  }
 .prod li img{
-    align-self: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 300px;
     max-width: 100%;
-    padding: 2px;
     margin: 0 auto;
+    border: 3px solid #5879d6;
+    border-radius: 50px;
+    padding: 18px;
     
-
 
 }
 
 .prod li{
+    margin-bottom: 8px;
+    margin-top: 12px;
     list-style: none;
-
 
 }
 .prod{
@@ -86,6 +88,7 @@ section .conteiner{
     gap: 1%;
     row-gap: 5%;
     align-items: flex-end;
+    margin-bottom: 42px;
 }
 
 .prod li button{
@@ -98,6 +101,20 @@ section .conteiner{
     border-radius: 32px;
     
 }
+
+.prod li button:hover{
+    background-color: #0048ff;
+    text-align: center;
+}
+
+header nav li a:hover{
+    color: #00ccff;
+    text-decoration: none;  
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
 h3{
     margin: 0 auto;
     text-align: center;
@@ -107,9 +124,10 @@ h3{
 
  section {
     align-items: center;
+
  }
  section{
-    padding: 24px 0;
+    padding: 24px;
     color: #182c61
 
  }
@@ -120,16 +138,18 @@ h3{
     
  }
  .prod li{
-    margin-left: 16px;
+    margin-left: 22px;
+    justify-content: space-around;
 }
 .prod li img{
     max-width: 1024px;
     width: 100%;
+    justify-content: space-around;
 }
 h3{
     margin-top: 12px;
     margin-bottom: 12px;
-    padding: 32px;
+    padding: 8px;
 }
 }
 
@@ -229,6 +249,7 @@ h3{
         row-gap: 5%;
         padding: 16px;
         margin: 0 auto;
+        
     }
     .prod li img{
         margin-top: 12px;
