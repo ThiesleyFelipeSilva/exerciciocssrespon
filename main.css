@@ -92,7 +92,10 @@ section .conteiner{
     background-color: rgb(0, 102, 255);
     color: #fff;
     cursor: pointer;
+    padding: 12px;
     width: 100%;
+    border: none;
+    border-radius: 32px;
     
 }
 h3{
@@ -232,6 +235,6 @@ h3{
         margin: 0 auto;
         padding: 12px;
         width: 100%;
-        border: 1px solid black;
+        
     }
 }
